@@ -1,0 +1,27 @@
+{
+  "name": "11ty-global-help",
+  "description": "",
+  "version": "1.0.0",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/pdehaan/11ty-global-help/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0-beta.4"
+  },
+  "homepage": "https://github.com/pdehaan/11ty-global-help#readme",
+  "keywords": [],
+  "license": "ISC",
+  "main": ".eleventy.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/11ty-global-help.git"
+  },
+  "scripts": {
+    "eleventy": "eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:help": "eleventy --help",
+    "test:version": "eleventy --version"
+  }
+}
